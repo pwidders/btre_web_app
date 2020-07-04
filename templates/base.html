@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BT Real Estate</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'css/all.css' %}">
     <!-- Bootstrap -->
@@ -14,7 +13,9 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <!-- Lightbox -->
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css' %}">
-
+    
+    <!-- Custom page titles -->
+    <title>BT Real Estate {% block title %}{% endblock %}</title>
 </head>
 <body>
     <!--Top Bar-->
